@@ -38,6 +38,7 @@ window.addEventListener('resize', () => {
 // scene.add(axesHelper);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.update()
+controls.enableDamping = true
 const light = new THREE.PointLight(0xfffefc, 20, 100);
 const light2 = new THREE.PointLight(0x2f3c45, 20, 100);
 
