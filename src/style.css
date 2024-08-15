@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+#app{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hide{
+  display: none;
+}
+p{
+  color: rgb(123, 181, 235);
+  font-size: 25px;
+}
