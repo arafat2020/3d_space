@@ -93,7 +93,7 @@ modelLoader()
 // spaceCraft2(scene, clock, camera, renderer, THREE, gui, loader)
 // adding model end
 
-window.addEventListener('mousemove', (e) => {
+window.addEventListener('mousemove', () => {
 
   // mouseX = (e.clientX - innerWidth * .5) * .003;
   // mouseY = (e.clientY - innerHeight * .5) * .003;
